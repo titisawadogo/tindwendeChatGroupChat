@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7314B7AB20ACE4C0003200B4 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314B7AA20ACE4C0003200B4 /* ChannelCell.swift */; };
+		7314B7AE20ACEF96003200B4 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314B7AC20ACEF96003200B4 /* AddChannelVC.swift */; };
+		7314B7AF20ACEF96003200B4 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7314B7AD20ACEF96003200B4 /* AddChannelVC.xib */; };
+		7314B7B320AD2788003200B4 /* SocketSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314B7B220AD2788003200B4 /* SocketSerivce.swift */; };
+		7316A9CD20ABA567000B089B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316A9CB20ABA567000B089B /* ProfileVC.swift */; };
+		7316A9CE20ABA567000B089B /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7316A9CC20ABA567000B089B /* ProfileVC.xib */; };
+		7316A9D120AC11CC000B089B /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316A9D020AC11CC000B089B /* MessageService.swift */; };
+		7316A9D320AC125A000B089B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316A9D220AC125A000B089B /* Channel.swift */; };
+		7316E43820A96283005079CF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316E43720A96283005079CF /* RoundedButton.swift */; };
+		73181E3520AA194800759A34 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73181E3420AA194800759A34 /* UserDataService.swift */; };
+		73181E3720AA8F8900759A34 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73181E3620AA8F8900759A34 /* AvatarPickerVC.swift */; };
+		73181E3920AA94C800759A34 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73181E3820AA94C800759A34 /* AvatarCell.swift */; };
+		73181E3B20AAAAF300759A34 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73181E3A20AAAAF300759A34 /* CircleImage.swift */; };
+		732C5EA020AF960C0045A829 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C5E9F20AF960C0045A829 /* Message.swift */; };
+		732C5EA220AFABC80045A829 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C5EA120AFABC80045A829 /* KeyboardBoundView.swift */; };
+		732C5EA420AFB31F0045A829 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C5EA320AFB31F0045A829 /* MessageCell.swift */; };
+		73F2838020A7A308007FC291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2837F20A7A308007FC291 /* AppDelegate.swift */; };
+		73F2838520A7A309007FC291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F2838320A7A309007FC291 /* Main.storyboard */; };
+		73F2838720A7A313007FC291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F2838620A7A313007FC291 /* Assets.xcassets */; };
+		73F2838A20A7A313007FC291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F2838820A7A313007FC291 /* LaunchScreen.storyboard */; };
+		73F2839520A7A957007FC291 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F2839420A7A957007FC291 /* SWRevealViewController.m */; };
+		73F2839B20A7AF3D007FC291 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2839A20A7AF3D007FC291 /* ChatVC.swift */; };
+		73F2839D20A7AF5B007FC291 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2839C20A7AF5B007FC291 /* ChannelVC.swift */; };
+		73F2839F20A7BC56007FC291 /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2839E20A7BC56007FC291 /* GradiantView.swift */; };
+		73F283A220A7CACE007FC291 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F283A120A7CACE007FC291 /* Constants.swift */; };
+		73F283A420A7D432007FC291 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F283A320A7D432007FC291 /* LoginVC.swift */; };
+		73F283A620A7FADB007FC291 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F283A520A7FADB007FC291 /* CreateAccountVC.swift */; };
+		73F283A920A902DD007FC291 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F283A820A902DD007FC291 /* AuthService.swift */; };
+		D67DB03EF4AFCA2786FDA4A0 /* Pods_Tindwende.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97D2FFB87FB992318C1AC4A /* Pods_Tindwende.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0732C7D15F666EBD1F9C0C60 /* Pods-Tindwende.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tindwende.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tindwende/Pods-Tindwende.release.xcconfig"; sourceTree = "<group>"; };
+		60DA10EFC627590749DCE7AC /* Pods-Tindwende.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tindwende.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tindwende/Pods-Tindwende.debug.xcconfig"; sourceTree = "<group>"; };
+		7314B7AA20ACE4C0003200B4 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		7314B7AC20ACEF96003200B4 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		7314B7AD20ACEF96003200B4 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		7314B7B220AD2788003200B4 /* SocketSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketSerivce.swift; sourceTree = "<group>"; };
+		7316A9CB20ABA567000B089B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		7316A9CC20ABA567000B089B /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		7316A9D020AC11CC000B089B /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		7316A9D220AC125A000B089B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		7316E43720A96283005079CF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		73181E3420AA194800759A34 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		73181E3620AA8F8900759A34 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		73181E3820AA94C800759A34 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		73181E3A20AAAAF300759A34 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		732C5E9F20AF960C0045A829 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		732C5EA120AFABC80045A829 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		732C5EA320AFB31F0045A829 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		73F2837C20A7A308007FC291 /* Tindwende.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tindwende.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F2837F20A7A308007FC291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73F2838420A7A309007FC291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73F2838620A7A313007FC291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73F2838920A7A313007FC291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73F2838B20A7A313007FC291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73F2839220A7A956007FC291 /* Tindwende-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tindwende-Bridging-Header.h"; sourceTree = "<group>"; };
+		73F2839320A7A957007FC291 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		73F2839420A7A957007FC291 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		73F2839A20A7AF3D007FC291 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		73F2839C20A7AF5B007FC291 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		73F2839E20A7BC56007FC291 /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
+		73F283A120A7CACE007FC291 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		73F283A320A7D432007FC291 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		73F283A520A7FADB007FC291 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		73F283A820A902DD007FC291 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C97D2FFB87FB992318C1AC4A /* Pods_Tindwende.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tindwende.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73F2837920A7A308007FC291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67DB03EF4AFCA2786FDA4A0 /* Pods_Tindwende.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4726E6AF5714A85609E9D3C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97D2FFB87FB992318C1AC4A /* Pods_Tindwende.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7316A9CF20ABA59B000B089B /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				7316A9CC20ABA567000B089B /* ProfileVC.xib */,
+				7314B7AD20ACEF96003200B4 /* AddChannelVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		73F2837320A7A307007FC291 = {
+			isa = PBXGroup;
+			children = (
+				73F2837E20A7A308007FC291 /* Tindwende */,
+				73F2837D20A7A308007FC291 /* Products */,
+				FB65A69558D81E6F095CC27C /* Pods */,
+				4726E6AF5714A85609E9D3C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73F2837D20A7A308007FC291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73F2837C20A7A308007FC291 /* Tindwende.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73F2837E20A7A308007FC291 /* Tindwende */ = {
+			isa = PBXGroup;
+			children = (
+				7316A9CF20ABA59B000B089B /* XIBs */,
+				73F283A720A902A7007FC291 /* Services */,
+				73F283A020A7CA9D007FC291 /* Utilities */,
+				73F2839920A7AF0B007FC291 /* Model */,
+				73F2839820A7AF03007FC291 /* View */,
+				73F2839720A7AEF9007FC291 /* controller */,
+				73F2839120A7A92C007FC291 /* Supporting Files */,
+				73F2837F20A7A308007FC291 /* AppDelegate.swift */,
+				73F2838320A7A309007FC291 /* Main.storyboard */,
+				73F2838620A7A313007FC291 /* Assets.xcassets */,
+				73F2838820A7A313007FC291 /* LaunchScreen.storyboard */,
+				73F2838B20A7A313007FC291 /* Info.plist */,
+			);
+			path = Tindwende;
+			sourceTree = "<group>";
+		};
+		73F2839120A7A92C007FC291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73F2839320A7A957007FC291 /* SWRevealViewController.h */,
+				73F2839420A7A957007FC291 /* SWRevealViewController.m */,
+				73F2839220A7A956007FC291 /* Tindwende-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73F2839720A7AEF9007FC291 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				73F2839A20A7AF3D007FC291 /* ChatVC.swift */,
+				73F2839C20A7AF5B007FC291 /* ChannelVC.swift */,
+				73F283A320A7D432007FC291 /* LoginVC.swift */,
+				73F283A520A7FADB007FC291 /* CreateAccountVC.swift */,
+				73181E3620AA8F8900759A34 /* AvatarPickerVC.swift */,
+				7316A9CB20ABA567000B089B /* ProfileVC.swift */,
+				7314B7AC20ACEF96003200B4 /* AddChannelVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		73F2839820A7AF03007FC291 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73F2839E20A7BC56007FC291 /* GradiantView.swift */,
+				7316E43720A96283005079CF /* RoundedButton.swift */,
+				73181E3820AA94C800759A34 /* AvatarCell.swift */,
+				73181E3A20AAAAF300759A34 /* CircleImage.swift */,
+				7314B7AA20ACE4C0003200B4 /* ChannelCell.swift */,
+				732C5EA120AFABC80045A829 /* KeyboardBoundView.swift */,
+				732C5EA320AFB31F0045A829 /* MessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73F2839920A7AF0B007FC291 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7316A9D220AC125A000B089B /* Channel.swift */,
+				732C5E9F20AF960C0045A829 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73F283A020A7CA9D007FC291 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				73F283A120A7CACE007FC291 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		73F283A720A902A7007FC291 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				73F283A820A902DD007FC291 /* AuthService.swift */,
+				73181E3420AA194800759A34 /* UserDataService.swift */,
+				7316A9D020AC11CC000B089B /* MessageService.swift */,
+				7314B7B220AD2788003200B4 /* SocketSerivce.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FB65A69558D81E6F095CC27C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60DA10EFC627590749DCE7AC /* Pods-Tindwende.debug.xcconfig */,
+				0732C7D15F666EBD1F9C0C60 /* Pods-Tindwende.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73F2837B20A7A308007FC291 /* Tindwende */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73F2838E20A7A313007FC291 /* Build configuration list for PBXNativeTarget "Tindwende" */;
+			buildPhases = (
+				ECC3223996BDBFC58E871C4D /* [CP] Check Pods Manifest.lock */,
+				73F2837820A7A308007FC291 /* Sources */,
+				73F2837920A7A308007FC291 /* Frameworks */,
+				73F2837A20A7A308007FC291 /* Resources */,
+				56426847DD959260E6470DFA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tindwende;
+			productName = Tindwende;
+			productReference = 73F2837C20A7A308007FC291 /* Tindwende.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73F2837420A7A307007FC291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Sawadogo Thierry";
+				TargetAttributes = {
+					73F2837B20A7A308007FC291 = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 73F2837720A7A307007FC291 /* Build configuration list for PBXProject "Tindwende" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73F2837320A7A307007FC291;
+			productRefGroup = 73F2837D20A7A308007FC291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73F2837B20A7A308007FC291 /* Tindwende */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73F2837A20A7A308007FC291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7314B7AF20ACEF96003200B4 /* AddChannelVC.xib in Resources */,
+				7316A9CE20ABA567000B089B /* ProfileVC.xib in Resources */,
+				73F2838A20A7A313007FC291 /* LaunchScreen.storyboard in Resources */,
+				73F2838720A7A313007FC291 /* Assets.xcassets in Resources */,
+				73F2838520A7A309007FC291 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56426847DD959260E6470DFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tindwende/Pods-Tindwende-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tindwende/Pods-Tindwende-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC3223996BDBFC58E871C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tindwende-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73F2837820A7A308007FC291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732C5EA220AFABC80045A829 /* KeyboardBoundView.swift in Sources */,
+				7316A9CD20ABA567000B089B /* ProfileVC.swift in Sources */,
+				7314B7AB20ACE4C0003200B4 /* ChannelCell.swift in Sources */,
+				73F2839F20A7BC56007FC291 /* GradiantView.swift in Sources */,
+				73181E3720AA8F8900759A34 /* AvatarPickerVC.swift in Sources */,
+				7316E43820A96283005079CF /* RoundedButton.swift in Sources */,
+				732C5EA420AFB31F0045A829 /* MessageCell.swift in Sources */,
+				7316A9D320AC125A000B089B /* Channel.swift in Sources */,
+				732C5EA020AF960C0045A829 /* Message.swift in Sources */,
+				73181E3B20AAAAF300759A34 /* CircleImage.swift in Sources */,
+				7316A9D120AC11CC000B089B /* MessageService.swift in Sources */,
+				7314B7B320AD2788003200B4 /* SocketSerivce.swift in Sources */,
+				73F2839D20A7AF5B007FC291 /* ChannelVC.swift in Sources */,
+				73181E3520AA194800759A34 /* UserDataService.swift in Sources */,
+				73F283A620A7FADB007FC291 /* CreateAccountVC.swift in Sources */,
+				73F283A920A902DD007FC291 /* AuthService.swift in Sources */,
+				73F283A420A7D432007FC291 /* LoginVC.swift in Sources */,
+				7314B7AE20ACEF96003200B4 /* AddChannelVC.swift in Sources */,
+				73F2839B20A7AF3D007FC291 /* ChatVC.swift in Sources */,
+				73181E3920AA94C800759A34 /* AvatarCell.swift in Sources */,
+				73F2838020A7A308007FC291 /* AppDelegate.swift in Sources */,
+				73F2839520A7A957007FC291 /* SWRevealViewController.m in Sources */,
+				73F283A220A7CACE007FC291 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73F2838320A7A309007FC291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F2838420A7A309007FC291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73F2838820A7A313007FC291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73F2838920A7A313007FC291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73F2838C20A7A313007FC291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73F2838D20A7A313007FC291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73F2838F20A7A313007FC291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DA10EFC627590749DCE7AC /* Pods-Tindwende.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YUDLJ2A5M;
+				INFOPLIST_FILE = Tindwende/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry.Tindwende;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tindwende/Supporting Files/Tindwende-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73F2839020A7A313007FC291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0732C7D15F666EBD1F9C0C60 /* Pods-Tindwende.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YUDLJ2A5M;
+				INFOPLIST_FILE = Tindwende/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry.Tindwende;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tindwende/Supporting Files/Tindwende-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73F2837720A7A307007FC291 /* Build configuration list for PBXProject "Tindwende" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F2838C20A7A313007FC291 /* Debug */,
+				73F2838D20A7A313007FC291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73F2838E20A7A313007FC291 /* Build configuration list for PBXNativeTarget "Tindwende" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F2838F20A7A313007FC291 /* Debug */,
+				73F2839020A7A313007FC291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73F2837420A7A307007FC291 /* Project object */;
+}
